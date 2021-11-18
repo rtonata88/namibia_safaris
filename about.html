@@ -10,16 +10,40 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        <header id="header">
+          <header id="header">
             <section class="top-bar">
-                <nav>
-                
-                </nav>
+                <section class="top-bar-content">
+                    <nav class="top-bar-items">
+                        <ul class="top-bar-links">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">My page</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </nav>
+                </section>
             </section>
-            <div class="logo"></div>
-            <nav>
-
-            </nav>
+            <section class="menu-bar-container">
+                <section class="menu-bar-content">
+                    <div class="logo">
+                        <img src="./assets/images/logo-small.png" alt="Logo" class="image">
+                    </div>
+                    <nav class="main-navigation">
+                        <ul class="nav">
+                            <li class="nav-items"><a href="about.html">About</a></li>
+                            <li class="nav-items"><a href="#">Trips</a></li>
+                            <li class="nav-items"><a href="#">Partners</a></li>
+                            <li class="nav-items"><a href="#">Sponsor</a></li>
+                            <li class="nav-items">
+                                <button class="book-now-button" type="button">
+                                    Book Now
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </section>
         </header>
         <main>
             <article class="content">
@@ -63,45 +87,55 @@
                         <p class="text-center">
                             Take a look at some of our recent trips.
                         </p>
-                        <div class="trips">
-                           <img src="./assets/images/himba.jpg" alt="Himba woman" width="100%">
-                           <div class="trip-overlay">
-                               <p class="text-center text-medium">OvaHimba Trip</p>
-                               <p class="text-center">Indigenous people living in </p>
-                           </div>
-                        </div>
-                         <div class="trips">
-                           <img src="./assets/images/namib_desert.jpeg" alt="Himba woman" width="100%">
-                           <div class="trip-overlay">
-                               <p class="text-center text-medium">Namib Desert</p>
-                               <p class="text-center">The Namib is a coastal desert  </p>
-                           </div>
+                        <div class="trips-container">
+                            <div class="trips">
+                            <img src="./assets/images/himba.jpg" alt="Himba woman" width="100%">
+                            <div class="trip-overlay">
+                                <p class="text-center text-medium">OvaHimba Trip</p>
+                                <p class="text-center">Indigenous people living in </p>
+                            </div>
+                            </div>
+                            <div class="trips">
+                            <img src="./assets/images/namib_desert.jpeg" alt="Himba woman" width="100%">
+                            <div class="trip-overlay">
+                                <p class="text-center text-medium">Namib Desert</p>
+                                <p class="text-center">The Namib is a coastal desert  </p>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </section>
-                 <section class="accomodation-partners">
+                  <section class="accomodation-partners">
                     <div class="content-wrapper">
                         <h4 class="section-title color-white">Accomodation partners</h4>
                         <hr class="horizontal-rule-20 primary-color">
+                        <div class="partner-images">
+
+                        </div>
                         <div class="image-container">
-                            <img src="./assets/images/partners/Etosha.png" alt="Etosha national park" class="partner-image">
-                            <br>
-                            <img src="./assets/images/partners/Omatozu.png" alt="Omatozu" width="50%">
-                            <img src="./assets/images/partners/Erindi.png" alt="Erindi" >
-                            <br>
-                            <img src="./assets/images/partners/nwr.png" alt="NWR" class="partner-image">
+                                <img src="./assets/images/partners/Etosha.png" alt="Etosha national park" width="30%">
+                            </div>
+                        <div class="image-container">
+                            <img src="./assets/images/partners/Omatozu.png" alt="Omatozu" class="partner-image" width="30%">
+                        </div>
+                        <div class="image-container">
+                            <img src="./assets/images/partners/Erindi.png" alt="Erindi" class="partner-image" width="30%">
+                        </div>
+                        <div class="image-container">
+                            <img src="./assets/images/partners/nwr.png" alt="NWR" class="partner-image" width="30%">
+                            </div>
                         </div>
                     </div>
                 </section>
             </article>
         </main>
         <footer class="footer">
-            <div class="footer-logo-container">
-                <img src="./assets/images/logo.png" alt="Namibia Safaris logo" class="logo-footer">
-            </div>
-            <p class="policy">
-                This site uses cookies. To find out more, view our <a href="#">Cookie Policy</a>.
-            </p>
+            <section class="footer-content">
+                    <img src="./assets/images/logo-small.png" alt="Namibia Safaris logo" class="image">
+                    <div class="policy">
+                        This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. To find out more, view our <a href="#">Cookie Policy</a>.
+                    </div>
+            </section>
         </footer>
         <script src="./assets/js/namibia-safaris.js" async defer></script>
     </body>

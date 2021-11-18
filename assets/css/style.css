@@ -380,6 +380,11 @@ h5 {
         background: #FFFFFF;
     }
 
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
     #main{
         display: flex;
         justify-content: center;
@@ -496,7 +501,6 @@ h5 {
         width: 100%;
         display: flex;
         justify-content: center;
-        border: 2px solid plum;
         align-items: center;
     }
 
@@ -506,7 +510,7 @@ h5 {
 
     .footer{
         display: flex;
-        align-items: baseline;
+        align-items: center;
         justify-content: center;
     }
 
@@ -520,7 +524,8 @@ h5 {
         justify-content: center;
         gap: 20px;
         align-items: baseline;
+        width: 50%;
     }
 
-    .image { align-self: flex-end; }
+    /* .image { align-self: flex-end; } */
 }
