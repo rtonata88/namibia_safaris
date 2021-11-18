@@ -293,6 +293,135 @@ h5 {
     width: 70%;
 }
 
-@media only screen and (max-width:  768px) {
+@media only screen and (min-width:  768px) {
+    #header{
+        display: flex;
+        flex-direction: column;
+        
+    }
 
+    .mobile-menu-toggle{
+        display: none;
+    }
+
+    .top-bar{
+        display: flex;
+        height: 25px;
+        background: rgba(39, 42, 49);
+        justify-content: center;
+    }
+
+    .top-bar-content{
+        display: flex;
+        justify-content: flex-end;
+        width: 70%;
+        color: white;
+    }
+
+    .top-bar-links{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        gap: 15px;
+        color: white;
+        font-size: smaller;
+    }
+
+    .top-bar-items{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .top-bar-items a{
+        text-decoration: none;
+    }
+
+    .top-bar-items a:link {
+        color: white;
+    }
+
+    .top-bar-items a:visited {
+        color: white;
+    }
+
+    .menu-bar-container{
+        display: flex;
+        justify-content: center;
+        background: rgb(255, 255, 255);
+        align-items: baseline;
+    }
+
+    .menu-bar-content{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        align-self: baseline;
+    }
+
+    .nav{
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+        align-items: baseline;
+    }
+
+    .nav-items a{
+        color: #272A31;
+        text-decoration: none;
+    }
+
+    .nav-items a:visited{
+        color: #272A31;
+        text-decoration: none;
+    }
+
+    .nav-items a:hover{
+        color: #EC5242;
+        text-decoration: none;
+    }
+
+    .book-now-button{
+        padding: 15px;
+        border: #EC5242 solid 4px;
+        color: #EC5242;
+        background: #FFFFFF;
+    }
+
+    #main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        background-color: #F5F5F5;
+        background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 1)), url("../images/bg-image2.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-wrapper{
+         width: 70%;
+    }
+
+    .heading{
+        font-size: 24px;
+    }
+    .text-large{
+        font-size: 50px;
+    }
+
+    .text-box{
+        width: 50%;
+    }
+
+    .trip-date{
+        font-size: 24px;
+    }
 }
