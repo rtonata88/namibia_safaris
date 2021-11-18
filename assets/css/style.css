@@ -1,0 +1,260 @@
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: normal;
+}
+#header{
+    display: none;
+}
+.top-bar{
+    display: flex;
+    height: 35px;
+}
+
+.top-bar-links{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.top-bar-items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-bar-items a{
+  text-decoration: none;
+}
+
+.top-bar-items a:link {
+    color: white;
+  }
+
+.top-bar-items a:visited {
+    color: white;
+  }
+
+.mobile-menu-toggle{
+    display: flex;
+    list-style-type: none;
+    color: #272A31;
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+.mobile-menu-toggle a{
+    text-decoration: none;
+}
+
+.primary-color{
+    color: #EC5242;
+}
+
+.secondary-color {
+    color: #F5F5F5;
+}
+.color-dark{
+    color: #272A31
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 1)), url("../images/bg-image2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -25px;
+}
+
+.content-wrapper{
+    margin: 0 30px 30px 30px;
+}
+
+.heading{
+    margin-top: 10px;
+    font-size: 16px;
+    height: 0;
+}
+
+.text-large{
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-clip: text;
+}
+
+.text-box{
+    padding: 10px;
+    border: 2px solid #F5F5F5;
+    background-color: rgba(211, 211, 211);
+}
+
+.main-activities{
+    display: flex;
+    background-color: #F5F5F5;
+    background-image: url("../images/bg-image3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.horizontal-rule-20{
+    width: 20%
+}
+
+.horizontal-rule-10{
+    width: 10%
+}
+
+.activity-wrapper{
+    display: flex;
+    padding: 5px;
+    background-color: rgba(211, 211, 211, 0.1);
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 80px;
+    
+}
+
+.activity-title{
+    width: 40%;
+    align-self: center;
+    padding-left: 8px;
+}
+
+.activity-info{
+    color: white;
+    width: 60%;
+     align-self: center;
+}
+
+.image-icon{
+    width:15%;
+    height: auto;
+    align-self: center;
+}
+
+.main-button{
+    font-family: "COCOGOOSE", sans-serif;
+    background-color: #EC5242;
+    padding: 20px;
+    border: #EC5242;
+    color: white;
+    width: 70%;
+    margin: 10px;
+    align-self: center;
+}
+
+.main-destinations{
+    background-color: white;
+}
+
+.destination-wrapper{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.destination-wrapper:hover{
+    border: 1px solid lightgrey;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    border-radius: 5px;
+}
+
+.destination-image-wrapper{
+    width: 200px;
+}
+
+.destination-info{
+    margin-left: 10px;
+    width: 500px;
+}
+
+.destination-title{
+    font-size: large;
+    font-family: "Lato", sans-serif;
+}
+
+.destination-image{
+    width:  100%;
+    height: auto;
+}
+
+.secondary-button{
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    padding: 20px;
+    border: lightgrey solid 1px;
+    border-radius: 5px;
+    color: #272A31;
+    width: 100%;
+    margin: 10px;
+    align-self: center;
+}
+
+.accomodation-partners{
+    display: flex;
+    flex-direction: column;
+    background-color: #272a31;
+}
+
+.color-white{
+    color: white;
+}
+
+.partner-image{
+    width: 80%;
+    height: auto;
+}
+
+.image-container{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer{
+    display: flex;
+    padding: 40px;
+    justify-content: baseline;
+
+}
+.footer-logo-container{
+    width: 30%;
+    padding: 40px;
+}
+.logo-footer{
+    width: 100%;
+    height: auto;
+}
+.policy{
+    width: 70%;
+}
