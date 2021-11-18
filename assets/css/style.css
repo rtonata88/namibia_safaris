@@ -54,6 +54,7 @@ h5 {
     color: #272A31;
     font-size: 24px;
     padding-top: 25px;
+    position: fixed;
 }
 
 .mobile-menu-toggle a{
@@ -82,7 +83,7 @@ h5 {
 }
 
 .content-wrapper{
-    margin: 0 30px 30px 30px;
+    margin: 80px 30px 30px 30px;
 }
 
 .heading{
@@ -90,7 +91,9 @@ h5 {
     font-size: 16px;
     height: 0;
 }
-
+.text-center{
+    text-align: center;
+}
 .text-large{
     font-family: "COCOGOOSE", sans-serif;
     font-size: 30px;
@@ -98,11 +101,18 @@ h5 {
     font-weight: 500;
     background-clip: text;
 }
+.background-white{
+    background-color: white;
+}
 
 .text-box{
     padding: 10px;
     border: 2px solid #F5F5F5;
     background-color: rgba(211, 211, 211);
+}
+
+.background-white{
+    background-color: white;
 }
 
 .main-activities{
@@ -116,9 +126,34 @@ h5 {
     flex-direction: column;
     height: auto;
 }
+.trips{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
 
+.trip-overlay{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 1000;
+    background: rgb(252, 15, 15, 0.4);
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+
+.text-medium{
+    font-size: 36px;
+    font-weight: 700;
+}
 .section-title{
     text-align: center;
+}
+.text-white{
+    color: white;
 }
 
 .horizontal-rule-20{
@@ -245,7 +280,6 @@ h5 {
     display: flex;
     padding: 40px;
     justify-content: baseline;
-
 }
 .footer-logo-container{
     width: 30%;
@@ -257,4 +291,8 @@ h5 {
 }
 .policy{
     width: 70%;
+}
+
+@media only screen and (max-width:  768px) {
+
 }
