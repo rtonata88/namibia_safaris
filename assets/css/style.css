@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
@@ -51,6 +51,21 @@ h5 {
 .nav-items a {
   color: #272a31;
   text-decoration: none;
+}
+
+.mobile-menu-items a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.background-dark {
+  background-color: #272a31;
+  color: white;
+}
+
+.background-dark a {
+  color: white;
 }
 
 .top-bar-items a {
@@ -110,10 +125,6 @@ h5 {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 500;
-}
-
-.background-white {
-  background-color: white;
 }
 
 .text-box {
@@ -330,10 +341,23 @@ h5 {
   font-size: 24px;
 }
 
+.logo-design {
+  width: 100%;
+  height: auto;
+}
+
+.background-white {
+  background-color: white !important;
+}
+
 @media only screen and (min-width: 768px) {
   #header {
     display: flex;
     flex-direction: column;
+  }
+
+  .background-white {
+    background-color: white !important;
   }
 
   .menu-overlay {
@@ -584,6 +608,10 @@ h5 {
 
   .image-container {
     float: left;
+  }
+
+  .background-dark {
+    background-color: #272a31;
   }
 
   .footer {
