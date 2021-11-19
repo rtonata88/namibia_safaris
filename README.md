@@ -54,6 +54,9 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## License
+[Creative Commons License](https://creativecommons.org/licenses/)
+
 ## Acknowledgements
 -Thank you Microverse for giving us this opportunity to learn coding
 -Special thanks to my learning partners and stand up team for constant support and encouragement
