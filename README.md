@@ -54,10 +54,8 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## License
-[Creative Commons License](https://creativecommons.org/licenses/)
+## License and Attributions
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Acknowledgements
--Thank you Microverse for giving us this opportunity to learn coding
--Special thanks to my learning partners and stand up team for constant support and encouragement
--Last but not least, special thanks to the code reviewers who always make we do a great job and have best practises in our projects.
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
