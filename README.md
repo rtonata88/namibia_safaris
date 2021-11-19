@@ -11,8 +11,8 @@ We are a tour operator company based in Namibia with over 20 years experience in
 
 ## Live Demo
 
-[Demo link](https://rtonata88.github.io/namibia_safaris/) 
-[Video link](https://rtonata88.github.io/namibia_safaris/) 
+- [Demo link](https://rtonata88.github.io/namibia_safaris/) 
+- [Video link](https://www.loom.com/share/a0aa5c956f9547298251acf3528de4db) 
 
 
 ## Getting Started
