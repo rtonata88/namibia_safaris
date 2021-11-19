@@ -9,6 +9,17 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
+      <div class="menu-overlay hide-menu">
+            <ul class="mobile-menu-toggle menu-close">
+                <li><i class="fas fa-times"></i></li>
+            </ul>
+            <ul class="mobile-menu-items mobile-menu-toggle">
+                <li class="mobile-menu-link"><a href="about.html">About</a></li>
+                <li class="mobile-menu-link"><a href="#">Activities</a></li>
+                <li class="mobile-menu-link"><a href="#">Partners</a></li>
+                <li class="mobile-menu-link"><a href="#">Sponsor</a></li>
+            </ul>
+        </div>
     <body>
           <header id="header">
             <section class="top-bar">
@@ -47,36 +58,37 @@
         </header>
         <main>
             <article class="content">
-                <ul class="mobile-menu-toggle">
-                    <li class="top-bar-items">
-                        <i class="fas fa-bars"></i>
-                    </li>
+               <ul class="mobile-menu-toggle mobile-menu">
+                    <li class="top-bar-items"><i class="fas fa-bars"></i></li>
                 </ul>
-                <div class="content-wrapper">
-                    <h1 class="heading primary-color text-center">"Explore Namibia"</h1>
-                    <p class="text-large primary-color text-center">
-                        Make your next trip memorable with us
-                    </p>
-                    <p class="text-box dark-color text-center">
-                        People use all sorts of words to describe it: vast, endless, magnificent, unimaginable, among others. Good words as far as words go, but they don't really do Namibia's top attractions justice.
-                    </p>
-                    <br>
-                    <p class="dark-color text-center">
-                        Do you have questions? Do not hesitate to contact us about the next trip. <br>
-                        <strong>adventures@namibiasafaris.com.nam </strong><br>
-                        081221876898
-                    </p>
-                </div>
+                <section class="content-wrapper">
+                    <section class="center-content">
+                        <h1 class="text-large primary-color text-center">
+                            Make your next trip memorable with us
+                        </h1>
+                        <p class="text-box dark-color text-center">
+                            People use all sorts of words to describe it: vast, endless, magnificent, unimaginable, among others. Good words as far as words go, but they don't really do Namibia's top attractions justice.
+                        </p>
+                        <br>
+                        <p class="dark-color text-center">
+                            Do you have questions? Do not hesitate to contact us about the next trip. <br>
+                            <strong>adventures@namibiasafaris.com.nam </strong><br>
+                            081221876898
+                        </p>
+                    </section>
+                </section>
                 <section class="main-destinations">
                     <div class="content-wrapper">
-                        <h4 class="section-title color-dark">Namibia safaris logo</h4>
-                        <hr class="horizontal-rule-20 primary-color" />
-                        <p class="text-center">
-                            Our logo was designed by one of our happy clients.
-                        </p>
-                        <div class="text-box text-center background-white">
-                            <img src="./assets/images/logo.png" alt="Namibia Safaris logo" width="50%">
-                        </div>
+                        <section class="center-content">
+                            <h4 class="section-title color-dark">Namibia safaris logo</h4>
+                            <hr class="horizontal-rule-20 primary-color" />
+                            <p class="text-center">
+                                Our logo was designed by one of our happy clients.
+                            </p>
+                            <div class="text-box text-center background-white">
+                                <img src="./assets/images/logo.png" alt="Namibia Safaris logo" width="50%">
+                            </div>
+                        </section>
                     </div>
                 </section>
                 
@@ -89,40 +101,38 @@
                         </p>
                         <div class="trips-container">
                             <div class="trips">
-                            <img src="./assets/images/himba.jpg" alt="Himba woman" width="100%">
-                            <div class="trip-overlay">
-                                <p class="text-center text-medium">OvaHimba Trip</p>
-                                <p class="text-center">Indigenous people living in </p>
-                            </div>
-                            </div>
-                            <div class="trips">
-                            <img src="./assets/images/namib_desert.jpeg" alt="Himba woman" width="100%">
-                            <div class="trip-overlay">
-                                <p class="text-center text-medium">Namib Desert</p>
-                                <p class="text-center">The Namib is a coastal desert  </p>
-                            </div>
+                                <img src="./assets/images/himba.jpg" alt="Himba woman" class="image">
+                                <div class="trip-overlay">
+                                    <p class="text-center text-medium">OvaHimba Trip</p>
+                                    <p class="text-center">Indigenous people living in </p>
+                                </div>
+                                </div>
+                                <div class="trips">
+                                <img src="./assets/images/himba.jpg" alt="Himba woman" class="image">
+                                <div class="trip-overlay">
+                                    <p class="text-center text-medium">Namib Desert</p>
+                                    <p class="text-center">The Namib is a coastal desert  </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                  <section class="accomodation-partners">
-                    <div class="content-wrapper">
+                 <section class="accomodation-partners">
+                    <div class="content-wrapper partner-logos">
                         <h4 class="section-title color-white">Accomodation partners</h4>
                         <hr class="horizontal-rule-20 primary-color">
-                        <div class="partner-images">
-
-                        </div>
-                        <div class="image-container">
+                            <center>
                                 <img src="./assets/images/partners/Etosha.png" alt="Etosha national park" width="30%">
+                            </center> 
+                        <div class="image-wrapper">
+                            <div class="image-container">
+                                <img src="./assets/images/partners/Omatozu.png" alt="Omatozu" class="partner-image" width="30%">
                             </div>
-                        <div class="image-container">
-                            <img src="./assets/images/partners/Omatozu.png" alt="Omatozu" class="partner-image" width="30%">
-                        </div>
-                        <div class="image-container">
-                            <img src="./assets/images/partners/Erindi.png" alt="Erindi" class="partner-image" width="30%">
-                        </div>
-                        <div class="image-container">
-                            <img src="./assets/images/partners/nwr.png" alt="NWR" class="partner-image" width="30%">
+                            <div class="image-container">
+                                <img src="./assets/images/partners/Erindi.png" alt="Erindi" class="partner-image" width="30%">
+                            </div>
+                            <div class="image-container">
+                                <img src="./assets/images/partners/nwr.png" alt="NWR" class="partner-image">
                             </div>
                         </div>
                     </div>
@@ -131,10 +141,12 @@
         </main>
         <footer class="footer">
             <section class="footer-content">
-                    <img src="./assets/images/logo-small.png" alt="Namibia Safaris logo" class="image">
-                    <div class="policy">
-                        This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. To find out more, view our <a href="#">Cookie Policy</a>.
-                    </div>
+                <div class="logo">
+                    <img src="./assets/images/logo-small.png" alt="Namibia Safaris logo" class="image">    
+                </div>
+                <div class="policy">
+                    <p>This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. To find out more, view our <br> <a href="#">Cookie Policy</a></p>
+                </div>
             </section>
         </footer>
         <script src="./assets/js/namibia-safaris.js" async defer></script>

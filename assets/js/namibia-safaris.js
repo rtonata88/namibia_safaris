@@ -50,4 +50,19 @@ Object.keys(destinations).forEach((key) => {
                             </div>
                         </section>`;
 });
-document.getElementById('destination-wrapper').innerHTML = destinations_html;
+try {
+   document.getElementById('destination-wrapper').innerHTML = destinations_html;
+} catch (error) {
+}
+
+const closeMenu = document.querySelectorAll('.mobile-menu-toggle');
+
+closeMenu.forEach((element) => {
+  element.addEventListener('click', () => {
+    const overlay = document.querySelector('.menu-overlay');
+    overlay.classList.toggle('hide-menu');
+
+    const hamburgerMenu = document.querySelector('.mobile-menu');
+    hamburgerMenu.classList.toggle('hide-menu');
+  });
+});

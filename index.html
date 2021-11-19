@@ -29,6 +29,7 @@
                     <div class="logo">
                         <img src="./assets/images/logo-small.png" alt="Logo" class="image">
                     </div>
+                    
                     <nav class="main-navigation">
                         <ul class="nav">
                             <li class="nav-items"><a href="about.html">About</a></li>
@@ -45,9 +46,20 @@
                 </section>
             </section>
         </header>
+        <div class="menu-overlay hide-menu">
+            <ul class="mobile-menu-toggle menu-close">
+                <li><i class="fas fa-times"></i></li>
+            </ul>
+            <ul class="mobile-menu-items mobile-menu-toggle">
+                <li class="mobile-menu-link"><a href="about.html">About</a></li>
+                <li class="mobile-menu-link"><a href="#">Activities</a></li>
+                <li class="mobile-menu-link"><a href="#">Partners</a></li>
+                <li class="mobile-menu-link"><a href="#">Sponsor</a></li>
+            </ul>
+        </div>
         <main id="main">
             <article class="content">
-                <ul class="mobile-menu-toggle">
+                <ul class="mobile-menu-toggle mobile-menu">
                     <li class="top-bar-items"><i class="fas fa-bars"></i></li>
                 </ul>
                 <div class="content-wrapper">
@@ -122,20 +134,21 @@
                     </div>
                 </section>
                 <section class="accomodation-partners">
-                    <div class="content-wrapper">
+                    <div class="content-wrapper partner-logos">
                         <h4 class="section-title color-white">Accomodation partners</h4>
                         <hr class="horizontal-rule-20 primary-color">
                             <center>
                                 <img src="./assets/images/partners/Etosha.png" alt="Etosha national park" width="30%">
-                            </center>
-                        <div class="image-container">
-                            <img src="./assets/images/partners/Omatozu.png" alt="Omatozu" class="partner-image" width="30%">
-                        </div>
-                        <div class="image-container">
-                            <img src="./assets/images/partners/Erindi.png" alt="Erindi" class="partner-image" width="30%">
-                        </div>
-                        <div class="image-container">
-                            <img src="./assets/images/partners/nwr.png" alt="NWR" class="partner-image">
+                            </center> 
+                        <div class="image-wrapper">
+                            <div class="image-container">
+                                <img src="./assets/images/partners/Omatozu.png" alt="Omatozu" class="partner-image" width="30%">
+                            </div>
+                            <div class="image-container">
+                                <img src="./assets/images/partners/Erindi.png" alt="Erindi" class="partner-image" width="30%">
+                            </div>
+                            <div class="image-container">
+                                <img src="./assets/images/partners/nwr.png" alt="NWR" class="partner-image">
                             </div>
                         </div>
                     </div>
@@ -144,13 +157,12 @@
         </main>
         <footer class="footer">
             <section class="footer-content">
-
                 <div class="logo">
                     <img src="./assets/images/logo-small.png" alt="Namibia Safaris logo" class="image">    
                 </div>
-                    <div class="policy">
-                        <p>This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. To find out more, view our <a href="#">Cookie Policy</a>.</p>
-                    </div>
+                <div class="policy">
+                    <p>This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. To find out more, view our <br> <a href="#">Cookie Policy</a></p>
+                </div>
             </section>
         </footer>
         <script src="./assets/js/namibia-safaris.js" async defer></script>
